@@ -6,7 +6,7 @@ import SideVideos from "../SideVideos/SideVideos";
 const Home = () => {
   const data = useLoaderData();
   const videos = data.items;
-  // console.log(videos);
+  console.log(videos);
   return (
     <div className="container mt-2">
       <Row>

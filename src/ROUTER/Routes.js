@@ -12,7 +12,7 @@ export const routes = createBrowserRouter([
         element: <Home></Home>,
         loader: ({ params }) =>
           fetch(
-            "https://www.googleapis.com/youtube/v3/search?key=AIzaSyBe22T4tpggmEGafIJ8XgEyfDD6brupB1g&maxResults=10&q=react&part=snippet"
+            "https://www.googleapis.com/youtube/v3/search?key=AIzaSyDikse8kINADlkorJ0P1-kiIy9Aqa111gs&maxResults=10&q=react&part=snippet"
           ),
       },
       {
@@ -20,7 +20,7 @@ export const routes = createBrowserRouter([
         element: <Home></Home>,
         loader: ({ params }) =>
           fetch(
-            `https://www.googleapis.com/youtube/v3/search?key=AIzaSyBe22T4tpggmEGafIJ8XgEyfDD6brupB1g&maxResults=10&q=${params.name}&part=snippet`
+            `https://www.googleapis.com/youtube/v3/search?key=AIzaSyDikse8kINADlkorJ0P1-kiIy9Aqa111gs&maxResults=10&q=${params.name}&part=snippet`
           ),
       },
     ],
